@@ -1,5 +1,5 @@
 # Git and Github
-Below tasks have been performed as part of assignment#1 Git and Github tutorials. 
+Below tasks have been performed for **assignment#1 Git and Github tutorials** which is part of **"Industry Ready Data Science Projects"**, a course offered by www.ineuron.ai. 
 
 Refer below link for assignment details:
 https://github.com/Project-Neurons/Industry-Ready-Projects-Tasks/blob/main/Git_&_Docker/Assignment-1.md
@@ -59,6 +59,7 @@ git checkout -b dev
 ![10  create branch](https://user-images.githubusercontent.com/54409180/194825525-04002b14-3d67-4a5a-bc71-d071fc6ac4ed.JPG)
 
 ### 9. Merge changes in branch to main
+Make some changes in the files and merge the changes to 'main' branch.
 ```
 git checkout main
 git merge dev
@@ -121,3 +122,13 @@ git stash
 git stash apply
 ```
 ![image](https://user-images.githubusercontent.com/54409180/194833942-23c2d824-6927-4655-af2b-83d91d7eeb36.png)
+
+----------------------------------------------------------------------------------------------------------------
+## Task 2
+Consider that you want to start an open-source project in your organization. Perform all the standard operation to create a repository with minimal permision for all the users. It should contain.
+1. Proper open source structure
+2. Proper Readme
+3. Add 2 collaborator
+4. Host GitHub Pages using settings (Designed to host your personal, organization, or project pages from a GitHub repository)
+
+## Solution:
