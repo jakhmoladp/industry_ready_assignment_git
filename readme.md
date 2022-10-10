@@ -50,27 +50,27 @@ git remote -M main
 ### 6. Create a remote for Github repo
 To connect local git repo to git hub repo, we have to create a 'remote' pointing to github repository. In below command we are adding a remote for github repository and given it an alias 'origin'. 
 ```
-git add remote origin https://github.com/jakhmoladp/industry_ready_assignment_git.git
+git remote add origin https://github.com/jakhmoladp/sample_repo.git
 ```
-![07  rename master to main](https://user-images.githubusercontent.com/54409180/194825758-1e290859-f22f-468b-9722-f452a2bd0e3b.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194906552-71bb03f1-41a9-4701-915c-57a5c7de316c.png)
 
 ### 7. Push changes from local machine to github repo
 In below command, we are now pushing the committed changes from local repository (main branch) to github repository via remote (origin) we created in previous step.
 ```
-git push origin main
+git push -u origin main
 ```
-![07  rename master to main](https://user-images.githubusercontent.com/54409180/194825758-1e290859-f22f-468b-9722-f452a2bd0e3b.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194906794-360621a6-8aee-4f99-9ef3-42d86093207c.png)
 
 ### 8. Create and activate a branch
 Git allows the developers to create copy of main repository, make changes in the copy and easily merge their changes to the parent repository without too much efforts.
 These copies are called 'branches' in git. Developers can create branches from last working code and perform their changes, test them and merge them to parent branch. 
 This allows multiple developers to collaborate easily. 
 
-In below command we are creating a branch named 'dev' and then moving to it. Changes done in this branch are now local to the developer, until he/she merges the changes with main branch.
+In below command we are creating a branch named 'dev' and then switch to it. Changes done in this branch are limited to the 'dev' branch only, until he/she merges the changes with main branch.
 ```
 git checkout -b dev
 ```
-![10  create branch](https://user-images.githubusercontent.com/54409180/194825525-04002b14-3d67-4a5a-bc71-d071fc6ac4ed.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194906914-fca1e8db-82b3-42aa-95c6-e6b61c663b0c.png)
 
 ### 9. Merge changes in branch to main
 Make some changes in the files and merge the changes to 'main' branch.
@@ -78,14 +78,14 @@ Make some changes in the files and merge the changes to 'main' branch.
 git checkout main
 git merge dev
 ```
-![11  merge command](https://user-images.githubusercontent.com/54409180/194826917-a0f99c3d-1964-4e90-bf66-fcd1684daeb6.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194907537-48f7df6d-0782-4838-8127-08d04fe35ae6.png)
 
 ### 10. Remove a file
 ```
 # Remove a previously created document
 git rm "15 commands.docx"
 ```
-![image](https://user-images.githubusercontent.com/54409180/194824188-5fb5c5a9-d241-4b83-82c9-c507ddaeaf24.png)
+![image](https://user-images.githubusercontent.com/54409180/194907730-ec399b0b-7081-47bf-881b-32fc03935ca8.png)
 
 ### 11. Clone github repo to local machine
 'cloning' allows downloading a github repository into local machine.
@@ -94,15 +94,13 @@ git rm "15 commands.docx"
 # cd the folder and run below mentioned clone command.
 git clone https://github.com/Project-Neurons/Industry-Ready-Projects-Tasks.git
 ```
-![image](https://user-images.githubusercontent.com/54409180/194828209-6c21040f-8ecf-47f7-99ab-2e1d2c3309e3.png)
+![image](https://user-images.githubusercontent.com/54409180/194907861-25e92bcf-19ae-4643-931a-920dfcae991e.png)
 
 ### 12. Check the list of untracked, unstaged or uncommited changes
 ```
 git status
 ```
-![image](https://user-images.githubusercontent.com/54409180/194828660-9e92dc56-08d6-464b-aa44-005c61bbc2e7.png)
-![image](https://user-images.githubusercontent.com/54409180/194829760-509ee65d-d4db-4f85-8662-f58303b29e1d.png)
-![image](https://user-images.githubusercontent.com/54409180/194829870-6820c0c7-cbda-43c1-bbff-f385eb98e3a9.png)
+![image](https://user-images.githubusercontent.com/54409180/194908121-a2ccdcfa-9e1e-4dde-9e35-957d73eedc42.png)
 
 ### 13. Rollback commit
 As git saves the history of changes through commits, we can always go back to the previous commits.
@@ -113,7 +111,7 @@ a. Add a new line in app.py file:
 
 b. Add and commit the change:
 
-![image](https://user-images.githubusercontent.com/54409180/194831567-7301edc4-f3d0-4a15-ad83-2ee92c201ea6.png)
+![image](https://user-images.githubusercontent.com/54409180/194908330-880df542-8736-48d0-b109-ab7fdef6f04c.png)
 ![image](https://user-images.githubusercontent.com/54409180/194831610-f2bc3da0-91bb-40e5-bcb0-d674466ed84d.png)
 
 c. Rollback the last commit:
@@ -123,7 +121,7 @@ git reset HEAD~1
 ```
 
 After running the reset command, it will show the last changes as not staged for commit.
-![image](https://user-images.githubusercontent.com/54409180/194831888-d916d1d4-1ce4-43df-97f5-b63d56a552a7.png)
+![image](https://user-images.githubusercontent.com/54409180/194908709-129f8009-3b55-4a6d-9201-9301f4b1b328.png)
 
 ### 14. Check git logs
 This command shows the list of all commits. Use this to see the commit history and id of specific commit. It also shows the pointer to the current head.
@@ -133,11 +131,12 @@ git log
 ![image](https://user-images.githubusercontent.com/54409180/194832578-20eb3a8a-3bac-4790-b45b-04a00d1e0c40.png)
 
 ### 15. Create Stashes
+Git stash is a built-in command with the distributed Version control tool in Git that locally stores all the most recent changes in a workspace and resets the state of the workspace to the prior commit state.
 ```
 git stash 
 git stash apply
 ```
-![image](https://user-images.githubusercontent.com/54409180/194833942-23c2d824-6927-4655-af2b-83d91d7eeb36.png)
+![image](https://user-images.githubusercontent.com/54409180/194909040-6a466316-2ef6-4678-853d-771094ad7578.png)
 
 ----------------------------------------------------------------------------------------------------------------
 ## Task 2
