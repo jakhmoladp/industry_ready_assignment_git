@@ -73,12 +73,7 @@ git clone https://github.com/Project-Neurons/Industry-Ready-Projects-Tasks.git
 ```
 git status
 ```
-a. status when files are not tracked:
 ![image](https://user-images.githubusercontent.com/54409180/194828660-9e92dc56-08d6-464b-aa44-005c61bbc2e7.png)
-
-b. status when files is being tracked but changes not commited:
-![image](https://user-images.githubusercontent.com/54409180/194828821-9877951a-6ad9-4ca0-b66b-25fb8ffea7f4.png)
-
-c. status after committing the changes:
-![image](https://user-images.githubusercontent.com/54409180/194829078-63272ead-8da5-4cbb-9913-65fc5bb48500.png)
+![image](https://user-images.githubusercontent.com/54409180/194829760-509ee65d-d4db-4f85-8662-f58303b29e1d.png)
+![image](https://user-images.githubusercontent.com/54409180/194829870-6820c0c7-cbda-43c1-bbff-f385eb98e3a9.png)
 
