@@ -1,3 +1,14 @@
+# Git and Github
+Below tasks have been performed as part of assignment#1 Git and Github tutorials. 
+
+Refer below link for assignment details:
+https://github.com/Project-Neurons/Industry-Ready-Projects-Tasks/blob/main/Git_&_Docker/Assignment-1.md
+
+
+## Task 1
+Demonstrate minimum 15 basic Git command with explanation and screenshot.
+
+## Solution:
 ### 1. Initialize git in local machine
 ```
 git init
@@ -77,3 +88,36 @@ git status
 ![image](https://user-images.githubusercontent.com/54409180/194829760-509ee65d-d4db-4f85-8662-f58303b29e1d.png)
 ![image](https://user-images.githubusercontent.com/54409180/194829870-6820c0c7-cbda-43c1-bbff-f385eb98e3a9.png)
 
+### 13. Rollback commit
+
+a. Add a new line in app.py file:
+
+![image](https://user-images.githubusercontent.com/54409180/194831390-f24418a9-189e-433a-bf20-b232844168c3.png)
+
+b. Add and commit the change:
+
+![image](https://user-images.githubusercontent.com/54409180/194831567-7301edc4-f3d0-4a15-ad83-2ee92c201ea6.png)
+![image](https://user-images.githubusercontent.com/54409180/194831610-f2bc3da0-91bb-40e5-bcb0-d674466ed84d.png)
+
+c. Rollback the last commit:
+```
+# Remove the last commit to tracking area
+git reset HEAD~1
+```
+
+After running the reset command, it will show the last changes as not staged for commit.
+![image](https://user-images.githubusercontent.com/54409180/194831888-d916d1d4-1ce4-43df-97f5-b63d56a552a7.png)
+
+### 14. Check git logs
+This command shows the list of all commits. Use this to see the commit history and id of specific commit. It also shows the pointer to the current head.
+```
+git log
+```
+![image](https://user-images.githubusercontent.com/54409180/194832578-20eb3a8a-3bac-4790-b45b-04a00d1e0c40.png)
+
+### 15. Create Stashes
+```
+git stash 
+git stash apply
+```
+![image](https://user-images.githubusercontent.com/54409180/194833942-23c2d824-6927-4655-af2b-83d91d7eeb36.png)
