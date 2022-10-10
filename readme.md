@@ -1,4 +1,4 @@
-# 2. Configure user details
+## 2. Configure user details
 ```
 git config user.name = devendra_jakhmola
 git config user.email = devjakhmola1990@gmail.com
@@ -7,7 +7,7 @@ git config user.email = devjakhmola1990@gmail.com
 
 
 
-# 12. Removed a file
+## 12. Removed a file
 ```
 git rm "15 commands.docx"
 ```
