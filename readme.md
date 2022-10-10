@@ -14,7 +14,7 @@ This command converts the local folder into git repository.
 ```
 git init
 ```
-![image](https://user-images.githubusercontent.com/54409180/194827184-3a949ac2-ba72-4eeb-8374-e72a30ba09f0.png)
+![image](https://user-images.githubusercontent.com/54409180/194898129-6613ce90-4f90-4e04-b116-4d8e458d1d61.png)
 
 ### 2. Configure user details
 'config' command can be used for setting multiple configurations. In this step we are configuring the name and email id of user who is performing the operations in the git. 
@@ -22,28 +22,30 @@ git init
 git config user.name = devendra_jakhmola
 git config user.email = devjakhmola1990@gmail.com
 ```
-![02  git config user](https://user-images.githubusercontent.com/54409180/194824463-e47990f7-966b-408f-99d3-336e3340c3e6.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194898231-69665e1c-ff21-49c6-a02f-7a56c2eed210.png)
+![image](https://user-images.githubusercontent.com/54409180/194898341-3fde9ff1-26f8-495d-be75-fbf1a8dce5e9.png)
 
 ### 3. Track files
 'add' command is used to place changes in the working directory to git staging area. Before committing a change, we must add it to the staging area.
 ```
 git add .
 ```
-![03  git add](https://user-images.githubusercontent.com/54409180/194825007-0d1d738a-3559-49de-abf9-38b3c6726150.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194899072-43814961-9c54-4ff8-ba79-ed94500c4ee5.png)
 
 ### 4. Add files to Staging Area
 'commit' command tells the git to store the final changes. Git maintains the history of each commit which makes it is easy to rollback to any previous commit whenever required.
 ```
 git commit -m "first commit"
 ```
-![05  git commit](https://user-images.githubusercontent.com/54409180/194825150-084abf50-69c2-4d7c-b96a-fd93efa034d3.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194900392-1ae7ae1f-8184-42b0-905c-a3fdb6b069c5.png)
+
 
 ### 5. Rename 'master' to 'main'
 When we want to publish changes from local git repo to a github repo, we should ensure that the root folder alias are same in git and github. By default, the root folder in github is 'main' while git has 'master'. We run below command to rename 'master' to 'main'. 
 ```
 git remote -M main
 ```
-![07  rename master to main](https://user-images.githubusercontent.com/54409180/194825758-1e290859-f22f-468b-9722-f452a2bd0e3b.JPG)
+![image](https://user-images.githubusercontent.com/54409180/194901490-e7adc50d-d476-4c6e-9b10-d393ab966c65.png)
 
 ### 6. Create a remote for Github repo
 To connect local git repo to git hub repo, we have to create a 'remote' pointing to github repository. In below command we are adding a remote for github repository and given it an alias 'origin'. 
