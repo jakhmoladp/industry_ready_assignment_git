@@ -169,9 +169,28 @@ https://github.com/jakhmoladp/git_project_structure.git
 
 ------------------------------------------------------------------------------------------------------------------
 ## Task 3
-- Create a Issue in your github repository.
-- Raise a pull request.
-- Merge A pull request.
+#### 1. Create a Issue in your github repository.
+![image](https://user-images.githubusercontent.com/54409180/195253323-f6a93476-bde1-4b73-9cd6-7e8d60b16314.png)
+
+#### 2. Raise a pull request.
+A pull request has been created after adding a file in branch.
+![image](https://user-images.githubusercontent.com/54409180/195253633-8d2342f6-d9d2-4884-8763-6ca5965636fd.png)
+
+#### 3. Merge A pull request.
+
+a. A sample file has been added in the branch:
+
+![image](https://user-images.githubusercontent.com/54409180/195254632-3eebe207-5ae4-4f2b-9b5f-568489dca81e.png)
+
+b. Switch to main --> Pull Requests --> Click 'new pull requests' --> Select branch name --> create pull request
+c. click on 'merge pull request' and 'confirm':
+![image](https://user-images.githubusercontent.com/54409180/195254987-001a214e-16b2-4105-b454-91ffbe7048f3.png)
+d. Sample file will now appear under main branch:
+![image](https://user-images.githubusercontent.com/54409180/195255134-90f3e2fd-c712-436d-b1b8-f0a9fa044c21.png)
+
+
+
+
 - Reject a pull request with proper comments.
 - Add a Dependabot alerts in your github.(for above cases)
 - Stash changes
