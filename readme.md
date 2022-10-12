@@ -167,3 +167,13 @@ https://github.com/jakhmoladp/git_project_structure.git
 
 ![image](https://user-images.githubusercontent.com/54409180/195250767-dbf2e3b2-e5d2-4c0e-8fa2-11fea69e419d.png)
 
+------------------------------------------------------------------------------------------------------------------
+## Task 3
+- Create a Issue in your github repository.
+- Raise a pull request.
+- Merge A pull request.
+- Reject a pull request with proper comments.
+- Add a Dependabot alerts in your github.(for above cases)
+- Stash changes
+- Create a release your package
+- Setup a Projects Board for your project.
