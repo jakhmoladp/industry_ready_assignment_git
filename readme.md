@@ -200,5 +200,13 @@ Click on "pull requests". It will show list of all open pull requests. Select th
 ![image](https://user-images.githubusercontent.com/54409180/195265371-c5c1ffa3-2c35-49b6-a0e0-b55ff749d5c1.png)
 
 #### 6. Stash changes
-- Create a release your package
-- Setup a Projects Board for your project.
+ 
+![image](https://user-images.githubusercontent.com/54409180/195266904-52189971-361c-4337-822a-671d01d1634d.png)
+ 
+#### 7. Create a release your package
+setup.py file has been created for releasing the package.
+![image](https://user-images.githubusercontent.com/54409180/195267034-792f3a85-f8a3-413a-982f-a9a64df0e8fe.png)
+
+#### 8. Setup a Projects Board for your project.
+Created a projects board:
+![image](https://user-images.githubusercontent.com/54409180/195267523-4b1ad4db-5114-4d12-8ce2-c19a649d82d8.png)
