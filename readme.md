@@ -183,16 +183,22 @@ a. A sample file has been added in the branch:
 ![image](https://user-images.githubusercontent.com/54409180/195254632-3eebe207-5ae4-4f2b-9b5f-568489dca81e.png)
 
 b. Switch to main --> Pull Requests --> Click 'new pull requests' --> Select branch name --> create pull request
+
 c. click on 'merge pull request' and 'confirm':
 ![image](https://user-images.githubusercontent.com/54409180/195254987-001a214e-16b2-4105-b454-91ffbe7048f3.png)
+
 d. Sample file will now appear under main branch:
 ![image](https://user-images.githubusercontent.com/54409180/195255134-90f3e2fd-c712-436d-b1b8-f0a9fa044c21.png)
 
+#### 4. Reject a pull request with proper comments.
+Click on "pull requests". It will show list of all open pull requests. Select the request, and click on 'close the request' by putting remarks:
 
+![image](https://user-images.githubusercontent.com/54409180/195264386-a565448c-727d-41ca-998d-f5439e1fc4c1.png)
 
+#### 5. Add a Dependabot alerts in your github.(for above cases)
 
-- Reject a pull request with proper comments.
-- Add a Dependabot alerts in your github.(for above cases)
-- Stash changes
+![image](https://user-images.githubusercontent.com/54409180/195265371-c5c1ffa3-2c35-49b6-a0e0-b55ff749d5c1.png)
+
+#### 6. Stash changes
 - Create a release your package
 - Setup a Projects Board for your project.
