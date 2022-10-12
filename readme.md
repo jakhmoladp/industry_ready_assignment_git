@@ -147,17 +147,17 @@ Consider that you want to start an open-source project in your organization. Per
 4. Host GitHub Pages using settings (Designed to host your personal, organization, or project pages from a GitHub repository)
 
 ### Solution:
-####1. Open source project structure has been created
+#### 1. Open source project structure has been created
 ```
 https://github.com/jakhmoladp/git_project_structure.git
 ```
 ![image](https://user-images.githubusercontent.com/54409180/195248457-840374e8-0534-4d94-853f-4ac2d66fc48c.png)
 
-####2. Read me file added:
+#### 2. Read me file added:
 
 ![image](https://user-images.githubusercontent.com/54409180/195248226-70a90c9f-088b-43c7-a2b0-3258adf0bfd1.png)
 ![image](https://user-images.githubusercontent.com/54409180/195248263-849877a1-3a7a-4c17-aa76-5f8f72d90e96.png)
 ![image](https://user-images.githubusercontent.com/54409180/195248291-cab70264-4e37-4c2b-b434-65200765fb52.png)
 
-####3. Two Collaborators have been added
+#### 3. Two Collaborators have been added
 ![image](https://user-images.githubusercontent.com/54409180/195248589-a061c1fa-a82f-4571-bd3b-bddd8bbe3ae3.png)
