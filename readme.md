@@ -161,3 +161,9 @@ https://github.com/jakhmoladp/git_project_structure.git
 
 #### 3. Two Collaborators have been added
 ![image](https://user-images.githubusercontent.com/54409180/195248589-a061c1fa-a82f-4571-bd3b-bddd8bbe3ae3.png)
+
+#### 4. Host GitHub Pages using settings
+![image](https://user-images.githubusercontent.com/54409180/195250687-d45a56ec-f9b7-4e07-b307-44890066321e.png)
+
+![image](https://user-images.githubusercontent.com/54409180/195250767-dbf2e3b2-e5d2-4c0e-8fa2-11fea69e419d.png)
+
